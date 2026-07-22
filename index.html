@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>ระบบแดชบอร์ดโรงเรียน</title>
 
-  <!-- 1. Apple Touch Icons (ใช้ ./rsr.png?v=1 เพื่อบังคับล้าง Cache ใน Safari) -->
+  <!-- 1. Apple Touch Icons (สำหรับ iOS Safari - ดึงไฟล์ใน GitHub โดยตรง) -->
   <link rel="apple-touch-icon" sizes="180x180" href="./rsr.png?v=1">
   <link rel="apple-touch-icon-precomposed" href="./rsr.png?v=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="รยป">
+  <meta name="apple-mobile-web-app-title" content="แดชบอร์ด">
 
   <!-- 2. Favicon ปกติ -->
   <link rel="icon" type="image/png" href="./rsr.png?v=1">
 
-  <!-- 3. สำหรับ Android / Chrome (ฝัง Manifest ในตัว) -->
+  <!-- 3. Web App Manifest (สำหรับ Android และ PC) -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="theme-color" content="#ffffff">
   <link rel="manifest" href='data:application/manifest+json,{
     "name": "ระบบแดชบอร์ดโรงเรียน",
-    "short_name": "รยป",
+    "short_name": "แดชบอร์ด",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
@@ -59,7 +59,7 @@
   </style>
 </head>
 <body>
-  <!-- อย่าลืมใส่ URL Web App ของ Apps Script ใน src ด้านล่าง -->
+  <!-- ⚠️ เปลี่ยนเป็น URL Web App ของ Google Apps Script ของคุณ -->
   <iframe src="https://script.google.com/macros/s/AKfycbxjFfsQXTpdNGrPQpMreHX5fkNIDZ8IxJnq8IbKYBliZWGr2nhA-1l4aQ-paeQvkD4/exec"></iframe>
 </body>
 </html>
